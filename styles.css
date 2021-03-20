@@ -1,0 +1,23 @@
+body {
+  background: pink;
+  text-align: center;
+}
+
+.punschkrapferl {
+  max-width: 30%;
+  height: auto;
+  margin: 30px auto;
+  border: 10px;
+}
+
+.links {
+  color: purple;
+}
+
+.links:visited {
+  color: plum;
+}
+
+.links:hover {
+  color: rebeccapurple;
+}
