@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Punschkrapferl - Best Austrian Pastry in Vienna"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage Punschkrapferl</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header></header>
+      <h1 class="mt-4">🧁Punschkrapferl</h1>
+      <h2><em>Austrian's finest</em>👌</h2>
+      <img
+        src="images/punschkrapferl.jpg"
+        alt="Punschkrapferl photo as serving"
+        class="punschkrapferl"
+      />
+      <p>
+        Punschkrapferl (punch cake) is a classic Austrian confection of pastry
+        with a fine rum flavor. It is similar to the French pastry, the petit
+        four. Today, one can find Punschkrapfen in most pastry shops and
+        bakeries in Austria - but we have<strong> the best</strong>.
+      </p>
+
+      <button>Be part of the club! 🤩</button>
+      <br />
+      <hr />
+
+      <footer>
+        <a href="index.html" title="Home" class="links">Homepage</a>
+        <a href="composition.html" title="Ingredients" class="links"
+          >Composition</a
+        >
+
+        <a href="contact.html" title="Contact" class="links">Contact</a>
+      </footer>
+    </div>
+    <script>
+      function welcome() {
+        let name = prompt("Hello, who are you?");
+        if (name.length > 0) {
+          let email = prompt(
+            "Welcome " +
+              name +
+              "! Let us know your email to keep you updated!📬"
+          );
+          email = email.toLowerCase();
+          email = email.trim();
+          let welcomeMessage = document.querySelector("header");
+          welcomeMessage.innerHTML = "Welcome " + name + "!🤗";
+        } else {
+          alert("Ok no name no entry 😎");
+        }
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", welcome);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  font-family: "Twinkle Star", cursive;
+  background-color: #fbd6d2;
+}
+
+.container {
+  max-width: 50%;
+  background-color: #f48db4;
+  height: 100vh;
+  padding: 15px 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  margin: 10px 0 0 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+p {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  color: #fbd6d2;
+  background-color: #c9356c;
+  border-radius: 20px;
+  border: 1px solid #c9356c;
+  transition: all 200ms ease-in-out;
+  margin: 20px 20px 30px 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fbd6d2;
+  background-color: #c9356c;
+  border: 1px solid #fbd6d2;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+}
+
+.punschkrapferl {
+  max-width: 60%;
+  height: auto;
+  margin: 20px auto;
+  border: 10px;
+  border-radius: 50%;
+}
+
+.links {
+  color: #c9356c;
+}
+
+.links:hover {
+  color: #fbd6d2;
+}
